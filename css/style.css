@@ -57,16 +57,16 @@ a {
 }
 
 /*float */
-.parte-sx, .parte-cx, .logo, .nav-sx, .txt, .colonna {
+.q-sx, .parte-sx, .parte-cx, .logo, .nav-sx, .txt, .colonna {
     float: left;
 }
 
-.parte-dx, .nav-dx, .foto, .button-contact {
+.q-dx, .parte-dx, .nav-dx, .foto, .button-contact {
     float: right;
 }
 
 /*display-inline*/
-.enterprice, .button-contact, .logo ,.nav-dx, .nav-sx ,.nav-dx li , .nav-sx li, .foto, .txt {
+.quadratogrande, .quadrati, .enterprice, .button-contact, .logo ,.nav-dx, .nav-sx ,.nav-dx li , .nav-sx li, .foto, .txt {
     display: inline-block;
 }
 
@@ -253,5 +253,47 @@ header {
 
 .mrg40 {
     margin-bottom: 40px;
+}
+
+/*sezione quadrati*/
+.quadrato {
+    width: calc((100vw / 13) * 2);
+    height: calc((100vw / 13) * 2);
+}
+
+.sfondo {
+    background-color: #a5a5a5;
+}
+
+.numero1 {
+    background-color: #a2d39b;
+}
+
+.numero2 {
+    background-color: #0093ce;
+}
+
+.numero3 {
+    background-color: #61082b;
+}
+
+.numero4 {
+    background-color: #ff1c1c;
+}
+
+.numero5 {
+    background-color: #d5001f;
+}
+
+.numero6 {
+    background-color: #0d2481;
+}
+
+.numero7 {
+    background-color: #b4d0e7;
+}
+
+.numero8 {
+    background-color: #ffd830;
 }
 
