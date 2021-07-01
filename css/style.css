@@ -57,12 +57,12 @@ a {
     float: left;
 }
 
-.nav-dx, .foto {
+.nav-dx, .foto, .button-contact {
     float: right;
 }
 
 /*display-inline*/
-.logo ,.nav-dx, .nav-sx ,.nav-dx li , .nav-sx li, .foto, .txt {
+.enterprice, .button-contact, .logo ,.nav-dx, .nav-sx ,.nav-dx li , .nav-sx li, .foto, .txt {
     display: inline-block;
 }
 
@@ -194,3 +194,13 @@ header {
 .colonna-cx {
     margin: 0% 8%;
 }
+
+.colonnone {
+    border: 1px solid black;
+    margin-top: 60px;
+}
+
+.margin-div-colonnone {
+    margin-top: 20px;
+}
+
