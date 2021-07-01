@@ -29,6 +29,10 @@ h2 {
     font-size: 50px;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 li {
     list-style-type: none;
 }
@@ -204,3 +208,20 @@ header {
     margin-top: 20px;
 }
 
+.txt-foto, .foto-txt {
+    width: 50%;
+}
+
+.foto.foto-txt {
+    padding: 60px 0 0 60px;
+    line-height: 30px;
+}
+
+.margin30 {
+    margin-top: 30px;
+}
+
+.margin150 {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
