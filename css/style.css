@@ -225,3 +225,9 @@ header {
     margin-top: 150px;
     margin-bottom: 150px;
 }
+
+.buttonwhite {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
