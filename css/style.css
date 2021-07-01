@@ -57,11 +57,11 @@ a {
 }
 
 /*float */
-.logo, .nav-sx, .txt, .colonna {
+.parte-sx, .parte-cx, .logo, .nav-sx, .txt, .colonna {
     float: left;
 }
 
-.nav-dx, .foto, .button-contact {
+.parte-dx, .nav-dx, .foto, .button-contact {
     float: right;
 }
 
@@ -234,3 +234,14 @@ header {
     border: 1px solid black;
 }
 
+.colnna-3 {
+    width: calc((100vw / 3) - 20%);
+}
+
+.parte-cx {
+    margin: 0px 8%;
+}
+
+.margin-file {
+    margin: 100px 0;
+}
