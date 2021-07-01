@@ -59,6 +59,7 @@ header {
     height: 60px;
     line-height: 60px;
     position: fixed;
+    z-index: 10;
     top: 0;
     background-color: white;
 }
@@ -88,8 +89,12 @@ main > section {
     padding-top: 100px;
 }
 
+.foto {
+    width: 70%;
+}
+
 .jumbo {
-    height: 580px;
+    max-width: 100%;
 }
 
 .txt-ontop {
@@ -104,3 +109,5 @@ main > section {
     margin-top: 50px;
     font-size: 60px;
 }
+
+
