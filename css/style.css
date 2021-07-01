@@ -1,3 +1,4 @@
+/*reset*/
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,16 @@
 /*common*/
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.big-container {
+    width: 85vw;
+    margin: auto;
+}
+
+h1 {
+    font-size: 90px;
+    margin-bottom: 40px;
 }
 
 a {
@@ -28,6 +39,20 @@ a {
     padding: 5px 15px;
 }
 
+/*float */
+.logo, .nav-sx, .txt {
+    float: left;
+}
+
+.nav-dx, .foto {
+    float: right;
+}
+
+/*display-inline*/
+.logo ,.nav-dx, .nav-sx ,.nav-dx li , .nav-sx li, .foto, .txt {
+    display: inline-block;
+}
+
 /*header*/
 header {
     width: 100%;
@@ -40,18 +65,6 @@ header {
 
 .header {
     margin: 0px 20px;
-}
-
-.logo ,.nav-dx, .nav-sx ,.nav-dx li , .nav-sx li {
-    display: inline-block;
-}
-
-.logo, .nav-sx {
-    float: left;
-}
-
-.nav-dx {
-    float: right;
 }
 
 .logo img, .nav-sx li, .nav-dx li {
@@ -67,10 +80,27 @@ header {
 }
 
 /*main*/
+.secchiello {
+    background-color: #b4d0e7;
+}
 
+main > section {
+    padding-top: 100px;
+}
 
+.jumbo {
+    height: 580px;
+}
 
+.txt-ontop {
+    width: 30%;
+}
 
+.marginbutton {
+    margin: 20px 0px 15px 0px;
+}
 
-
-
+.arrow {
+    margin-top: 50px;
+    font-size: 60px;
+}
