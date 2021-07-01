@@ -29,6 +29,10 @@ h2 {
     font-size: 50px;
 }
 
+li {
+    list-style-type: none;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -131,5 +135,57 @@ header {
     margin-left: 20px;
 }
 
+.radio {
+    margin: 30px 0 20px 0;
+}
 
+.fa-check {
+    color: blue;
+}
 
+.parte-sotto {
+    line-height: 35px;
+    padding: 30px;
+}
+
+.parte-sopra {
+    padding: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.colonna-dx {
+    width: calc((100vw / 3) - 20%);
+    border: 1px solid black;
+}
+
+.parte-sotto > .button {
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.grigio {
+    line-height: 10px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.margin-ul {
+    margin-bottom: 30px;
+}
+
+.margin-div {
+    margin: 30px 0 60px 0;
+}
+
+.oppure {
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.purchase-now {
+    color: #0061ff;
+    text-decoration: underline;
+}
