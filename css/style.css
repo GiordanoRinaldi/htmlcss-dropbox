@@ -346,6 +346,8 @@ header {
     color: #61082b;
 }
 
+/*footer*/
+
 .padding-faq {
     padding: 30px 0;
     border-top: 1px solid black;
@@ -357,6 +359,7 @@ header {
 
 .footer-bk {
     background-color: black;
+    padding-bottom: 20px;
 }
 
 .footer-wh, .footer-wh > li > a {
@@ -373,5 +376,13 @@ header {
 
 .parte-sotto.footer-wh {
     padding: 50px 0;
+    margin-bottom: 20px;
 }
+
+.select-language {
+    padding: 40px 0 0px 0;
+    border-top: 1px solid white;
+}
+
+
 
