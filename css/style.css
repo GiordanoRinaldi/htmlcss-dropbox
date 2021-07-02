@@ -368,5 +368,10 @@ header {
 }
 
 .footer-colonne {
-    width: calc(100vw / 5);
+    width: calc(85vw / 5);
 }
+
+.parte-sotto.footer-wh {
+    padding: 0;
+}
+
