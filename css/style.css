@@ -354,3 +354,19 @@ header {
 .padding-faq-bottom {
     border-bottom: 1px solid black;
 }
+
+.footer-bk {
+    background-color: black;
+}
+
+.footer-wh, .footer-wh > li > a {
+    color: white;
+}
+
+.marginfooter {
+    margin: 20px 0;
+}
+
+.footer-colonne {
+    width: calc(100vw / 5);
+}
