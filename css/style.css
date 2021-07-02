@@ -61,7 +61,7 @@ a {
     float: left;
 }
 
-.q-dx, .parte-dx, .nav-dx, .foto, .button-contact {
+.text-right, .q-dx, .parte-dx, .nav-dx, .foto, .button-contact {
     float: right;
 }
 
@@ -344,4 +344,13 @@ header {
 
 .violet {
     color: #61082b;
+}
+
+.padding-faq {
+    padding: 30px 0;
+    border-top: 1px solid black;
+}
+
+.padding-faq-bottom {
+    border-bottom: 1px solid black;
 }
