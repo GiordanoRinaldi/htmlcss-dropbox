@@ -57,7 +57,7 @@ a {
 }
 
 /*float */
-.q-sx, .parte-sx, .parte-cx, .logo, .nav-sx, .txt, .colonna {
+.Business, .q-sx, .parte-sx, .parte-cx, .logo, .nav-sx, .txt, .colonna {
     float: left;
 }
 
@@ -66,7 +66,7 @@ a {
 }
 
 /*display-inline*/
-.quadratogrande, .quadrati, .enterprice, .button-contact, .logo ,.nav-dx, .nav-sx ,.nav-dx li , .nav-sx li, .foto, .txt {
+.Business, .quadratogrande, .quadrati, .enterprice, .button-contact, .logo ,.nav-dx, .nav-sx ,.nav-dx li , .nav-sx li, .foto, .txt {
     display: inline-block;
 }
 
@@ -340,4 +340,8 @@ header {
 .riga {
     width: 70px;
     border: 0.5px solid black;
+}
+
+.violet {
+    color: #61082b;
 }
