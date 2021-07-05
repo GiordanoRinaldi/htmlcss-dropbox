@@ -406,3 +406,7 @@ header {
     transform: scale(1.05);
     transition: 0.5s;
 }
+
+.quadrato:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5) ;
+}
