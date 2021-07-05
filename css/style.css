@@ -389,5 +389,7 @@ header {
     border-top: 1px solid white;
 }
 
-
+.fa-chevron-down {
+    margin-right: 15px;
+}
 
